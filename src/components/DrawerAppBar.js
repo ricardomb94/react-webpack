@@ -33,7 +33,7 @@ function DrawerAppBar(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
           <Typography variant="h6" sx={{ my: 2 }}>
-            Gigi & Dom
+            Ogilvie & Domminique
           </Typography>
           <Divider />
           <List>
@@ -63,9 +63,9 @@ function DrawerAppBar(props) {
                         onClick={handleDrawerToggle}
                         sx={{ mr: 2, display: { sm: 'none' } }}
                     >
-                        <MenuIcon />
+                      <MenuIcon />
                     </IconButton>
-                 <Typography 
+                <Typography 
                     variant="h6" 
                     component="div" 
                     sx={{ flexGrow: 1 }}
